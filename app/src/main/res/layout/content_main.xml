@@ -83,16 +83,17 @@
 
     <TextView
         android:id="@+id/txtresulte"
-        android:layout_width="match_parent"
-        android:layout_height="32dp"
+        android:layout_width="124dp"
+        android:layout_height="35dp"
         android:layout_below="@+id/textView2"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="12dp"
-        android:layout_marginBottom="535dp"
-        android:background="#1C3C7C"
+        android:layout_marginBottom="532dp"
+        android:background="#D0D7E6"
         android:gravity="center"
         android:text="Resulte"
         android:textColor="#D51414"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:visibility="invisible" />
 
 </RelativeLayout>

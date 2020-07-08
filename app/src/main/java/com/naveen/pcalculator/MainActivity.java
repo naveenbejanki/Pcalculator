@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
                  float decimalvalue=perentagenumbericvalue/100;
                  float result=decimalvalue * Float.parseFloat(enternumber.getText().toString());
                  txtresulte.setText(Float.toString(result));
+                 txtresulte.setVisibility(View.VISIBLE);
+
 
 
 
